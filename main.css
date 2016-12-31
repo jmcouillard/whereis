@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#locating {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 60%;
+    height: 50px;
+    z-index: 10;
+    position: absolute;
+    bottom:  20%;
+    left: 20%;
+    pointer-events: none;
+}
+
+span {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    padding: 20px;
+    line-height: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+}

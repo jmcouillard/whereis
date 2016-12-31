@@ -1,0 +1,1 @@
+{"timeStamp":0,"isOld":false,"isInaccurate":false,"locationFinished":true,"positionType":"GPS","latitude":0,"horizontalAccuracy":10,"locationType":null,"longitude":0}
