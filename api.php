@@ -9,7 +9,7 @@ $location_data = array();
 try {
   $find_iphone = new FindMyiPhone(APPLE_ID_USERNAME, APPLE_ID_PASSWORD);
   $device_id = $find_iphone->devices[0]->id;
-  $location_data = $find_iphone->locate_device(0, 3);
+  $location_data = $find_iphone->locate_device(0, 30);
   file_put_contents("last.txt", json_encode($location_data), LOCK_EX);
 
 } catch (exception $e) {
