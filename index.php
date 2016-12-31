@@ -15,6 +15,7 @@ $lastData = file_get_contents("last.txt");
 
 	var map, marker;
 	var lastData = <?= $lastData ?>;
+	var updateDelay = 60; // seconds
 
 	function initMap() {
 
@@ -37,6 +38,11 @@ $lastData = file_get_contents("last.txt");
 			icon: image
 		});
 
+		setInterval(updateMap, updateDelay * 1000);
+		updateMap();
+	}
+
+	function updateMap(){
 		$.ajax({
 			dataType: "json",
 			url: "api.php",
