@@ -1,4 +1,10 @@
-Using https://github.com/Neal/FindMyiPhone.
+Show your love by showing where you are.
 
-To use, copy config.default.php to config.php and edit values.
+Based on [Neal/FindMyiPhone library](https://github.com/Neal/FindMyiPhone).
+
+### Usage
+
+Works on a standard PHP server with curl enabled.
+
+Copy `config.default.php` to `config.php` and edit values with your own API keys and account informations.
 
