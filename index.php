@@ -25,7 +25,7 @@ $lastData = file_get_contents("last.txt");
 		map = new google.maps.Map(document.getElementById('map'), {
 			scrollwheel: false,
 			center: myLatlng,
-			zoom: 11
+			zoom: 13
 		});
 
 		var image = {
