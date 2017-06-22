@@ -8,4 +8,3 @@ date_default_timezone_set('America/Montreal');
 define("GMAPS_API_KEY", "xxx");
 define("APPLE_ID_USERNAME", "xxx");
 define("APPLE_ID_PASSWORD", "xxx");
-define("DEVICE_INDEX", 0);
